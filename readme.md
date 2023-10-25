@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 # Onion(soğan) arxitekturası 🧅
 
 C# və ya digər dillər ilə backend development edərkən, proyektimiz çox böyüyə bilər, belə olan hallarda əgər proyektimizi doğru struktur və ya arxitektura ilə işləmiriksə, ona yeni özəlliklər əlavə etmək və ya ümumiyyətlə onda müəyyən dəyişikliklər etmək çox vaxtımızı ala bilər. Bunun üçün proqramçılar illərdir fərqli dizayn patternlər hazırlayırlar. Misal olaraq adicə hər kəsin bildiyi MVC(model-view-controller) özü bir dizayn patterndir və ya MVVM(model-view-view-model). Lakin, bəzən dizayn patternlər belə bizə bəs etməyə bilər. Bu zaman köməyimizə fərqli arxitekturalar gəlir. Bunlardan ən məhşurları: N-Tier Architecture(ənənəvi), Onion architecture, Hexagonal architecture - dir. Bugünkü məqaləmizdə Onion(soğan) arxitekturasından danışacağıq və N-Tier Architecture arasında olan fərqləri, müsbət və mənfi cəhətlərini müzakirə edəcəyik. Elə isə ilk sualımıza cavab tapaq, nədir bu N-Tier Architecture?
@@ -10,10 +12,11 @@ N-tier arxitekturası təməlində proyekti birdən çox səviyyələrə bölmə
 
 ## Onion arxitekturası, müsbət və mənfi cəhətləri
 
-<img src="./docs/spongebob.gif"/><br/>
-
+<br>
+<img src="./docs/spongebob.gif" width=350 height=350/><br/>
 Onion arxitekturasını güclü edən, onun levellərinin arasında sıx əlaqə olmaması və birindən digərinə rahat bir şəkildə keçidin olmasıdır. Adının soğan olması isə arxitekturanın quruluşuna görədir.Soğan kimi, iç içə qabıqların olması ona soğan adını qazandırıb.
 Gəlin nəzər salaq:
+
 <img src="./docs/onion-arch.png"/><br/>
 Bu arxitekturanı güclü edən digər bir ünsür isə, N-tier -dən fərqli olaraq Data bölməsinin mərkəzdə olmamasıdır. Bu bizə gələcəkdə database-lə əlaqədar texnologiya dəyişikliklərində çox rahatlıq verəcək.
 Şəkildən də göründüyü kimi arxitekturanın: Domain, Application, Infrastructure, Persistence və Presentation adlı bölmələri var, gəlin onlara qısaca nəzər salaq:
