@@ -44,6 +44,6 @@ Presentation bölməsi isə, istifadəçi tərəfi nümayiş elətdirir. Burda �
 Misal olaraq aşağıdakı, şəkilə baxmaq olar:<br>
 <img src="./docs/example.png" /><br/>
 
-Görüldüyü burda, Persistence və Infrastructure səviyyələri birləşdirilib bir səviyyədədir. Eləcə də əlavə olaraq _tests_ layer-i var. Bu isə arxitekturanın genişlənməyə açıq olduğunu göstərir, yəni istədiyimiz kimi arxitekturanı səviyyələrə bölə bilər və ya əsas nəzəriyyəni saxlamaqla kiçildə bilərik.
+Görüldüyü kimi burda, Persistence və Infrastructure səviyyələri birləşdirilib bir səviyyədədir. Eləcə də əlavə olaraq _tests_ layer-i var. Bu isə arxitekturanın genişlənməyə açıq olduğunu göstərir, yəni istədiyimiz kimi arxitekturanı səviyyələrə bölə bilər və ya əsas nəzəriyyəni saxlamaqla kiçildə bilərik.
 
 Ümumilikdə, Onion arxitekturasını tətbiq etmək, proyektlərimizi gələcək ehtiyaclar üçün daha açıq edir. Əsas üstünlüyü gördüyümüz kimi, asılıqların minimala salınması(heç vaxt asılılıqdan tam qurtulmaq olmaz sadəcə minimum-a salmaq olar), kodun idarəsinin asanlığı və texnologiya dəyişiklərinə açıq olmasıdır.
