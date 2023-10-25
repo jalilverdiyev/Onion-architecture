@@ -41,7 +41,7 @@ Bəzən Persistence səviyyəsi ilə birləşdirilib bir səviyyə kimi götür�
 
 Presentation bölməsi isə, istifadəçi tərəfi nümayiş elətdirir. Burda əsasən, Viewlar, API controllerlər və Page-lər olur.
 
-Misal olaraq aşağıdakı, şəkilə baxmaq olar:
+Misal olaraq aşağıdakı, şəkilə baxmaq olar:<br>
 <img src="./docs/example.png" /><br/>
 
 Görüldüyü burda, Persistence və Infrastructure səviyyələri birləşdirilib bir səviyyədədir. Eləcə də əlavə olaraq _tests_ layer-i var. Bu isə arxitekturanın genişlənməyə açıq olduğunu göstərir, yəni istədiyimiz kimi arxitekturanı səviyyələrə bölə bilər və ya əsas nəzəriyyəni saxlamaqla kiçildə bilərik.
